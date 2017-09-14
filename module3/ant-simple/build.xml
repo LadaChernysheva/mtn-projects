@@ -21,4 +21,20 @@
     <delete dir="${build}"/>
     <delete dir="${dist}"/>
   </target>
+
+<target name="test">
+<junit printsummary="yes" haltonfailure="no">
+	<classpath>
+		<pathelement path="${build}"/>
+		<pathelement location ="${build}/com/test"/>
+	</classpath>
+	<formatter type="plain" usefile="false" />
+	<test name="Test"/>
+  </junit>
+</target>
+ 
+<target name="run" depends="dist">
+	<java jar="${dist}/lib/testProject.jar" fork="true"/>
+</target>
+
 </project>
