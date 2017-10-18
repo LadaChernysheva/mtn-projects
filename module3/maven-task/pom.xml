@@ -29,21 +29,12 @@
         </dependency>
     </dependencies>
     
-      <repositories>
-      <repository>
-         <releases>
-            <enabled>true</enabled>
-         </releases>
-         <snapshots>
-                  <enabled>false</enabled>
-         </snapshots>
-         <id>nexus</id>
-         <name>Central</name>
-         <url>
-            http://localhost/nexus/content/repositories/nexus/
-         </url>
-      </repository>
-   </repositories>     
+<distributionManagement>
+    <repository>
+      <id>nexus</id>
+      <url>http://localhost:8081/nexus/content/repositories/nexus/</url>
+    </repository>
+  </distributionManagement>
          
 </project>
 
