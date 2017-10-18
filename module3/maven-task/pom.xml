@@ -40,7 +40,7 @@
          <id>nexus</id>
          <name>Central</name>
          <url>
-            http://127.0.0.1:8081/nexus
+            http://localhost/nexus/content/repositories/nexus/
          </url>
       </repository>
    </repositories>     
