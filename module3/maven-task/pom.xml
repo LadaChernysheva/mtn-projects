@@ -28,6 +28,22 @@
             <version>3.2.1</version>
         </dependency>
     </dependencies>
-
+    
+      <repositories>
+      <repository>
+         <releases>
+            <enabled>true</enabled>
+         </releases>
+         <snapshots>
+            <enabled>false</enabled
+         </snapshots>
+         <id>nexus</id>
+         <name>Central</name>
+         <url>
+            http://127.0.0.1:8081/nexus
+         </url>
+      </repository>
+   </repositories>     
+         
 </project>
 
