@@ -37,5 +37,14 @@
     </repository>
   </distributionManagement>
          
+         <plugin>
+                  <groupId>org.apache.maven.plugins</groupId>
+                  <artifactID?maven-compiler-plugin</artifactID>
+                  <version>3.3</version>
+                  <configuration>
+                           <finalName>${project.name}-${project.version}:${maven.build.timestamp}</finalName>
+                  </configuration>
+         </plugin>
+         
 </project>
 
