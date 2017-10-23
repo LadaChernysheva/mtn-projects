@@ -29,14 +29,16 @@
         </dependency>
     </dependencies>
     
-<distributionManagement>
+<!--- <distributionManagement>
     <repository>
       <id>nexus</id>
              <name> nexus</name>
       <url>http://localhost:8081/nexus/content/repositories/nexus/</url>
     </repository>
-  </distributionManagement>
-         
+  </distributionManagement>  -->
+   <build>
+     <pluginManagment>
+       <plugins>  
          <plugin>
                   <groupId>org.apache.maven.plugins</groupId>
                   <artifactID?maven-compiler-plugin</artifactID>
@@ -45,6 +47,9 @@
                            <finalName>${project.name}-${project.version}:${maven.build.timestamp}</finalName>
                   </configuration>
          </plugin>
+        </plugins>
+      </pluginManagement>
+</build>
          
 </project>
 
