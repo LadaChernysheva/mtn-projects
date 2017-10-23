@@ -53,14 +53,15 @@
                             <goal>undeploy</goal>
                             <goal>deploy-artifact</goal>
                         </goals>
-                             <configuration>
-      <hostname>127.0.0.1</hostname>
-      <port>9990</port>
-      <username>adminJBoss</username>
-      <password>master</password>
-            <targetDir>target</targetDir>
-                    <fileName>target/mvn-task.war</fileName>
-   </configuration>
+                  </execution>
+                  <configuration>
+                           <hostname>127.0.0.1</hostname>
+                           <port>9990</port>
+                           <username>adminJBoss</username>
+                           <password>master</password>
+                           <targetDir>target</targetDir>
+                           <fileName>target/mvn-task.war</fileName>
+                  </configuration>
    </executions>
 </plugin>
                 
