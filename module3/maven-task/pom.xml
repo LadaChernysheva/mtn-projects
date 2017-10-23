@@ -37,7 +37,7 @@
     </repository>
   </distributionManagement>  -->
    <build>
-     <pluginManagment>
+
        <plugins>  
          <plugin>
                   <groupId>org.apache.maven.plugins</groupId>
@@ -47,8 +47,9 @@
                            <finalName>${project.name}-${project.version}:${maven.build.timestamp}</finalName>
                   </configuration>
          </plugin>
+                
         </plugins>
-      </pluginManagement>
+
 </build>
          
 </project>
