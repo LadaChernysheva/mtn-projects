@@ -38,10 +38,10 @@
     </repository>
   </distributionManagement>  -->
          
-         
-   <build>
-             <finalName>mvn-task</finalName>
-       <plugins>  
+        
+<build>
+<finalName>mvn-task</finalName>
+<plugins>  
 <plugin>
    <groupId>org.jboss.as.plugins</groupId>
    <artifactId>jboss-as-maven-plugin</artifactId>
@@ -53,7 +53,7 @@
                             <goal>undeploy</goal>
                             <goal>deploy-artifact</goal>
                         </goals>
-                  </execution>
+                  
                   <configuration>
                            <hostname>127.0.0.1</hostname>
                            <port>9990</port>
@@ -62,6 +62,7 @@
                            <targetDir>target</targetDir>
                            <fileName>target/mvn-task.war</fileName>
                   </configuration>
+           </execution>
    </executions>
 </plugin>
                 
