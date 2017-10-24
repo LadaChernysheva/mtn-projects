@@ -68,7 +68,7 @@
                             <goal>deploy</goal>
                         </goals>
                                     <configuration>
-			   <port>9990</port>
+			   <port>9999</port>
                            <username>adminJBoss</username>
                            <password>master</password>
                          <jboss_Home>${jboss-as.home}</jboss_Home>
