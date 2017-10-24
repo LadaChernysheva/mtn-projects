@@ -72,8 +72,8 @@
 			  <!---<force>true</force>
 			    <hostname>${jboss-as.deploy.hostname}</hostname>
 			 <hostname>127.0.0.1</hostname>
-                           <port>9990</port>-->
-			  <hostname>localhost</hostname>
+                           <port>9990</port>
+			  <hostname>localhost</hostname> -->
                            <port>9990</port>
                            <username>adminJBoss</username>
                            <password>master</password>
