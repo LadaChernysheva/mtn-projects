@@ -72,7 +72,7 @@
 			   <port>9990</port>
                            <username>adminJBoss</username>
                            <password>master</password>
-                         <jboss_Home>/opt/jboss-as-7.1.1.Final/bin</jboss_Home>
+                         <jboss_Home>/opt/jboss-as-7.1.1.Final/bin/</jboss_Home>
                            <fileName>target/mvn-task.war</fileName>
                   </configuration>
            </execution>
