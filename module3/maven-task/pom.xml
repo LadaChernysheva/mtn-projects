@@ -61,14 +61,12 @@
    <groupId>org.jboss.as.plugins</groupId>
    <artifactId>jboss-as-maven-plugin</artifactId>
    <version>7.1.1.Final</version>
-         <executions>
-                    <execution>
-                        <phase>install</phase>
+        <execution>
+		<phase>package</phase>
                         <goals>
                             <goal>deploy</goal>
                         </goals>
-                  
-                  <configuration>
+                                    <configuration>
 			   <port>9990</port>
                            <username>adminJBoss</username>
                            <password>master</password>
