@@ -65,7 +65,7 @@
                     <execution>
                         <phase>install</phase>
                         <goals>
-                            <goal>deploy-artifact</goal>
+                            <goal>deploy</goal>
                         </goals>
                   
                   <configuration>
