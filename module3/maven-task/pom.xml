@@ -65,7 +65,6 @@
                     <execution>
                         <phase>install</phase>
                         <goals>
-				<goal>start</goal>
                             <goal>deploy</goal>
                         </goals>
                   
